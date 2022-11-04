@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p GPU-shared
+#SBATCH -t 48:00:00
+#SBATCH --gpus=1
+#SBATCH --job-name=3_mul_BCE
+#SBATCH --output=3_mul_BCE%j.out
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=kuanrenq@andrew.cmu.edu
+
+#log commands to stdout
+set -x
+
+module load anaconda3
+conda activate pytorch
+
+python /ocean/projects/eng170006p/ussqww/NeuronGrowthML_11032022/NeuronGrowthML_Pytorch_multiple_BCE/Main_data_NG_3channel_multiple.py
+#END
