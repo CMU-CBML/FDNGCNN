@@ -118,6 +118,7 @@ def TestErrorPlot(model, device, testing_data_loader):
     avg_error = np.average(error_List)
     # print(np.asarray(testID_List).type)
     # print(np.asarray(error_List).size)
+    plt.figure(figsize=(10, 6), dpi=100)
     plt.plot(testID_List, error_List, 'ko', zorder=1, markersize=1)
     # plt.scatter(np.asarray(testID_List), np.asarray(error_List), 'bo')
     plt.hlines(avg_error, 1, count, colors='r', zorder=2)
