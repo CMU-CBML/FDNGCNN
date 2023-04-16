@@ -1,0 +1,49 @@
+% separate this section of code from main for easy organization on PSC
+if numNeuron == 1 % 1 neuron
+    Nx = 60;
+    Ny = 60;
+elseif numNeuron == 2 % 2 neurons
+    Nx = 140;
+    Ny = 140;
+elseif numNeuron == 3 % 3 neurons
+    Nx = 150;
+    Ny = 150;
+elseif numNeuron == 4 % 4 neurons
+    Nx = 170;
+    Ny = 170;
+elseif numNeuron == 5 % 5 neurons
+    Nx = 190;
+    Ny = 190;
+elseif numNeuron == 6 % 6 neurons
+    Nx = 200;
+    Ny = 200;
+elseif numNeuron == 7 % 7 neurons
+    Nx = 200;
+    Ny = 200;
+end
+
+% % separate this section of code from main for easy organization on PSC
+% if numNeuron == 1 % 1 neuron
+% %     Nx = 40;
+% %     Ny = 40;
+%     Nx = 60;
+%     Ny = 60;
+% elseif numNeuron == 2 % 2 neurons
+%     Nx = 130;
+%     Ny = 130;
+% elseif numNeuron == 3 % 3 neurons
+%     Nx = 150;
+%     Ny = 150;
+% elseif numNeuron == 4 % 4 neurons
+%     Nx = 160;
+%     Ny = 160;
+% elseif numNeuron == 5 % 5 neurons
+%     Nx = 180;
+%     Ny = 180;
+% elseif numNeuron == 6 % 6 neurons
+%     Nx = 190;
+%     Ny = 190;
+% elseif numNeuron == 7 % 7 neurons
+%     Nx = 210;
+%     Ny = 210;
+% end
