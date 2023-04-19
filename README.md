@@ -15,8 +15,8 @@ This code is the implementation of the phase field model using isogeometric coll
 	- **[IGA_collocation_algorithm](https://github.com/CMU-CBML/NeuronGrowth_IGAcollocation/tree/main/IGA_collocation_algorithm)**: contains necessary functions built and used in the model.
 	- **caseX_X**: contains code necessary to reproduce simulation results shown in the paper.
 	- **[all_results](https://github.com/CMU-CBML/FDNGCNN/tree/main/Feature_driven_NG_model/all_results)**: contains final growth image of all cases.
-	- **paramGen.m(https://github.com/CMU-CBML/FDNGCNN/blob/main/Feature_driven_NG_model/paramGen.m)**: Matlab script used to generated batch simulation scripts.
-	- **submit_jobs.m(https://github.com/CMU-CBML/FDNGCNN/blob/main/Feature_driven_NG_model/submit_jobs.sh)**: slurm script used to submit batch simulation on Pittsburgh Supercompter Center (PSC)
+	- **[paramGen.m](https://github.com/CMU-CBML/FDNGCNN/blob/main/Feature_driven_NG_model/paramGen.m)**: Matlab script used to generated batch simulation scripts.
+	- **[submit_jobs.m](https://github.com/CMU-CBML/FDNGCNN/blob/main/Feature_driven_NG_model/submit_jobs.sh)**: slurm script used to submit batch simulation on Pittsburgh Supercompter Center (PSC)
 
 - **[ML_models](https://github.com/CMU-CBML/FDNGCNN/tree/main/ML_models)**: contains CNN surrogated model for both feature-driven model and our previous model.
 	- **[NeuronGrowthML_Pytorch_all_BCE_neuriteFeaturesModel_04182023](https://github.com/CMU-CBML/FDNGCNN/tree/main/ML_models/NeuronGrowthML_Pytorch_all_BCE_neuriteFeaturesModel_04182023)**: contains code and saved data necessary to reproduce CNN surrogate model for feature-driven neuron growth model
