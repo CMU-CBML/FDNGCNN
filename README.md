@@ -1,7 +1,7 @@
 # Feature-driven IGA-C Neuron Growth Model
 Incorporating experimental neurite morphometric features into a phase field method-based neuron growth model using an isogeometric analysis collocation (IGA-C) approach.
 
-![Neurite morphometric features](./Figures/neurite_features_results.png)
+![Neurite morphometric features](./Figures/Neurite_morphometric_features.png)
 ![Computational pipeline](./Figures/Computational_pipeline.png)
 ![External cue-guided mechanism](./Figures/External_cue_guided_mechanism.png)
 ![Feature-driven model simulation results](./Figures/neurite_features_results.png)
