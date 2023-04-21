@@ -28,11 +28,12 @@ This code is the implementation of the phase field model using isogeometric coll
 
 ## How to run
 1. Valid installation of Matlab (code written with Matlab 2021a)
-2. Navigate to the case you want to run (or create a new one) **[caseX_X]**
+2. Navigate to the case you want to run (or create a new one) caseX_X
 3. Run *main.m*. For simulation cases in paper, run *main.m* in each folder for that specific case.
 4. Note that cases were ran on Bridges-2 Supercompter server at Pittsburgh Supercomputer center, which limits wall time to 48 hrs, so most simulations required a restart. To reproduce exact results in paper, please load 'workspace.mat' first and use the random seed variable rngSeed
 
 ## Reference
-1. K. Qian, A. Pawar, A. Liao, C. Anitescu, V. Webster-Wood, A. W. Feinberg, T. Rabczuk, Y. J. Zhang, **[Modeling neuron growth using isogeometric collocation based phase field method](https://www.nature.com/articles/s41598-022-12073-z)**, Scientific Reports 12 (2022) 8120.
-2. A. S. Liao, W. Cui, Y. J. Zhang, V. A. Webster-Wood, **[Semi-automated quantitative evaluation of neuron developmental morphology in vitro
+1. K. Qian, A. Liao, S. Gu, V. Webster-Wood, Y. J. Zhang. Biomimetic IGA Neuron Growth Modeling with Neurite Morphometric Features and CNN-based Prediction. In preparation.
+2. K. Qian, A. Pawar, A. Liao, C. Anitescu, V. Webster-Wood, A. W. Feinberg, T. Rabczuk, Y. J. Zhang, **[Modeling neuron growth using isogeometric collocation based phase field method](https://www.nature.com/articles/s41598-022-12073-z)**, Scientific Reports 12 (2022) 8120.
+3. A. S. Liao, W. Cui, Y. J. Zhang, V. A. Webster-Wood, **[Semi-automated quantitative evaluation of neuron developmental morphology in vitro
 using the change-point test](https://pubmed.ncbi.nlm.nih.gov/36070028/)**, Neuroinformatics 21 (2022) 163–176.
